@@ -7,8 +7,8 @@ namespace DBReader.Console
     {
         static void Main(string[] args)
         {
-            var dbLocation = new FileInfo(@"..\..\..\webCacheV01.dat");
-            var outputFile = new FileInfo(@"..\..\..\webCacheV01.json");
+            var dbLocation = new FileInfo(@"database.dat");
+            var outputFile = new FileInfo(@"output.json");
 
             using (var eseDatabase = new ESEDatabase(dbLocation))
             {
