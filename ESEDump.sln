@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28306.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESEDump.Console", "DBReader.Console\ESEDump.Console.csproj", "{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESEDump.Core", "ESEDump.Core\ESEDump.Core.csproj", "{CB604767-49D6-4E5B-BCBB-D67302F506F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESEDump.Console", "ESEDump.Console\ESEDump.Console.csproj", "{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CB604767-49D6-4E5B-BCBB-D67302F506F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CB604767-49D6-4E5B-BCBB-D67302F506F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CB604767-49D6-4E5B-BCBB-D67302F506F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CB604767-49D6-4E5B-BCBB-D67302F506F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AD8754E-E7A0-421C-8EDA-7FE5F1CAD9F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
